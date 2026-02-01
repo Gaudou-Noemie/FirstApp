@@ -1,69 +1,88 @@
-📚 NowBooks
 
-NowBooks est une application mobile React Native (Expo) permettant de rechercher des livres via Google Books API, puis de les organiser simplement dans deux listes personnelles :
+# 📚 NowBooks
 
-❤️ Liste d’envie
+> Une application mobile React Native pour rechercher, sauvegarder et organiser tes lectures simplement.
 
-📖 Déjà lu
+NowBooks permet de **rechercher des livres via Google Books API** et de les classer rapidement dans deux listes personnelles :
 
-Toutes les données sont stockées localement sur le téléphone (AsyncStorage).
-Aucun compte en ligne ni base de données distante nécessaire.
+❤️ **Liste d’envie**  
+📖 **Déjà lu**
 
-✨ Fonctionnalités
-🔐 Authentification locale
+Toutes les données sont **stockées localement sur le téléphone (AsyncStorage)**.  
+👉 Aucun serveur • Aucun compte cloud • 100% offline
 
-Création de compte (email / mot de passe)
+---
 
-Connexion
+## ✨ Aperçu
 
-Stockage local sécurisé (AsyncStorage)
+NowBooks te permet de :
 
-🔎 Recherche de livres
+- 🔎 Rechercher n’importe quel livre
+- ❤️ L’ajouter à ta wishlist
+- 📖 Marquer comme lu
+- 🔁 Ajouter / retirer en un clic
+- 💾 Garder tes données localement
 
-Recherche via Google Books API
+Simple. Rapide. Efficace.
 
-Affichage : couverture, titre, auteurs
+---
 
-❤️ Liste d’envie
+# 🚀 Fonctionnalités
 
-Icône cœur vide/plein
+## 🔐 Authentification locale
+- Création de compte (email / mot de passe)
+- Connexion
+- Stockage local sécurisé avec AsyncStorage
+- Pas de backend nécessaire
 
-Ajout / suppression en un clic
+## 🔎 Recherche de livres
+- API Google Books
+- Résultats instantanés
+- Affichage :
+  - Couverture
+  - Titre
+  - Auteurs
 
-📖 Déjà lu
+## ❤️ Liste d’envie
+- Icône ❤️ cœur vide / plein
+- Ajout ou suppression en un clic
 
-Icône livre ouvert/ferme
+## 📖 Déjà lu
+- Icône 📘 livre ouvert / fermé
+- Ajout ou suppression en un clic
 
-Ajout / suppression en un clic
+## 📂 Navigation fluide
+- Footer fixe en bas de l’écran
+- Accès rapide aux listes
+- Bouton retour intégré
+- Interface minimaliste et mobile-first
 
-📂 Navigation
+---
 
-Footer fixe en bas de l’écran
+# 🛠️ Stack technique
 
-Accès rapide :
+| Technologie | Utilisation |
+|------------|-------------|
+| React Native (Expo) | Framework mobile |
+| TypeScript | Typage |
+| React Navigation | Navigation entre écrans |
+| AsyncStorage | Stockage local |
+| Axios | Appels API |
+| Google Books API | Données livres |
+| Expo Vector Icons | Icônes UI |
 
-📖 Déjà lu
+---
 
-❤️ Envie
+# 📦 Installation
 
-Bouton retour intégré
+## 1️⃣ Cloner le projet
 
-🛠️ Technologies utilisées
+```bash
+git clone <URL_DU_REPO>
+cd nowbooks
 
-React Native (Expo)
-
-TypeScript
-
-React Navigation (Native Stack)
-
-AsyncStorage
-
-Axios
-
-Expo Vector Icons (Ionicons)
-
-Google Books API
-
-🚀 Installation
+## 2️⃣ Installer les dépendances
 npm install
-npx expo start
+
+## ▶️ Lancer l’application
+npx expo start a
